@@ -1,9 +1,9 @@
 def new_hash
-  empty_hash = {}
+  {}
 end
 
 def my_hash
-  person_hash = { name: "Tom" }
+  { name: "Tom" }
 end
 
 def pioneer
