@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  person_hash = { name: "Tom"}
+  person_hash = { name: "Tom" }
 end
 
 def pioneer
