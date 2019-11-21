@@ -24,7 +24,8 @@ end
 
 def update_counting_hash(hash, key)
   if hash[key] == nil
-    {key => 1}
+    hash[key] = 1
+    return hash
   else
     hash[key] += 1
   end
